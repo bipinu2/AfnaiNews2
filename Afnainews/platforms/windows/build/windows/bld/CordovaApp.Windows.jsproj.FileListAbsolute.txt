@@ -1,0 +1,17 @@
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\debug\anycpu\resources.pri
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows.build.appxrecipe
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\priconfig.xml
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\layout.resfiles
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\resources.resfiles
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\pri.resfiles
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\qualifiers.txt
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\package.map.txt
+c:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\platforms\windows\build\windows\bld\_pkginfo.txt

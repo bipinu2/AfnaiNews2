@@ -1,0 +1,380 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'ionic' ]
+2 info using npm@2.7.4
+3 info using node@v4.2.1
+4 verbose config Skipping project config: C:\Users\bshrestha/.npmrc. (matches userconfig)
+5 warn package.json dom-serializer@0.1.0 No README data
+6 warn package.json pascal-case@1.1.1 No README data
+7 warn package.json coffee-script@1.3.3 bugs['name'] should probably be bugs['url'].
+8 warn package.json dateformat@1.0.2-1.2.3 No repository field.
+9 warn package.json faye-websocket@0.4.4 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+10 warn package.json punycode@1.3.2 punycode is also the name of a node core module.
+11 warn package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+12 silly cache add args [ '-', null ]
+13 verbose cache add spec -
+14 silly cache add args [ 'ionic', null ]
+15 verbose cache add spec ionic
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: '-',
+16 silly cache add   scope: null,
+16 silly cache add   name: null,
+16 silly cache add   rawSpec: '-',
+16 silly cache add   spec: 'C:\\Users\\bshrestha\\Documents\\Visual Studio 2015\\Projects\\Afnainews\\Afnainews\\-',
+16 silly cache add   type: 'local' }
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'ionic',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'ionic',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 verbose addNamed ionic@*
+19 silly addNamed semver.valid null
+20 silly addNamed semver.validRange *
+21 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+22 silly mapToRegistry name ionic
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/ionic
+26 verbose addNameRange registry:https://registry.npmjs.org/ionic not in flight; fetching
+27 error addLocal Could not install C:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\-
+28 verbose request uri https://registry.npmjs.org/ionic
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 2:40:14 PM
+31 verbose request id 3e3e0ca91f81755e
+32 verbose etag "84P0OIESA12WN76JDCE1SQJT"
+33 http request GET https://registry.npmjs.org/ionic
+34 http 200 https://registry.npmjs.org/ionic
+35 silly get cb [ 200,
+35 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly get     etag: '"D4ZWHYNBKT52VU9GGXKKX7DYM"',
+35 silly get     'content-type': 'application/json',
+35 silly get     'cache-control': 'max-age=60',
+35 silly get     'content-length': '589719',
+35 silly get     'accept-ranges': 'bytes',
+35 silly get     date: 'Fri, 06 Nov 2015 19:40:14 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     age: '35',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-jfk1027-JFK',
+35 silly get     'x-cache': 'HIT',
+35 silly get     'x-cache-hits': '1',
+35 silly get     'x-timer': 'S1446838814.670454,VS0,VE3',
+35 silly get     vary: 'Accept' } ]
+36 verbose get saving ionic to C:\Users\bshrestha\AppData\Roaming\npm-cache\registry.npmjs.org\ionic\.cache.json
+37 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+38 silly addNameRange versions [ 'ionic',
+38 silly addNameRange   [ '0.9.6',
+38 silly addNameRange     '0.9.8',
+38 silly addNameRange     '0.9.9',
+38 silly addNameRange     '0.9.10',
+38 silly addNameRange     '0.9.11',
+38 silly addNameRange     '0.9.12',
+38 silly addNameRange     '0.9.13',
+38 silly addNameRange     '0.9.14',
+38 silly addNameRange     '0.9.15',
+38 silly addNameRange     '0.9.16',
+38 silly addNameRange     '1.0.0-beta.1',
+38 silly addNameRange     '1.0.0-beta',
+38 silly addNameRange     '1.0.1-beta',
+38 silly addNameRange     '1.0.3-beta',
+38 silly addNameRange     '1.0.4',
+38 silly addNameRange     '1.0.5',
+38 silly addNameRange     '1.0.6',
+38 silly addNameRange     '1.0.7',
+38 silly addNameRange     '1.0.8',
+38 silly addNameRange     '1.0.9',
+38 silly addNameRange     '1.0.10',
+38 silly addNameRange     '1.0.11',
+38 silly addNameRange     '1.0.12',
+38 silly addNameRange     '1.0.13',
+38 silly addNameRange     '1.0.14',
+38 silly addNameRange     '1.0.15',
+38 silly addNameRange     '1.0.16',
+38 silly addNameRange     '1.0.17',
+38 silly addNameRange     '1.1.0-beta1',
+38 silly addNameRange     '1.1.0-beta2',
+38 silly addNameRange     '1.1.0-beta3',
+38 silly addNameRange     '1.1.0-beta4',
+38 silly addNameRange     '1.1.0-beta5',
+38 silly addNameRange     '1.1.0-beta6',
+38 silly addNameRange     '1.1.0',
+38 silly addNameRange     '1.1.1-beta1',
+38 silly addNameRange     '1.1.1-beta2',
+38 silly addNameRange     '1.1.1-beta3',
+38 silly addNameRange     '1.1.1',
+38 silly addNameRange     '1.1.3',
+38 silly addNameRange     '1.1.4',
+38 silly addNameRange     '1.1.5-beta1',
+38 silly addNameRange     '1.1.5-beta2',
+38 silly addNameRange     '1.1.5-beta3',
+38 silly addNameRange     '1.1.5-beta4',
+38 silly addNameRange     '1.1.5-beta5',
+38 silly addNameRange     '1.1.5',
+38 silly addNameRange     '1.1.6',
+38 silly addNameRange     '1.1.7-beta1',
+38 silly addNameRange     '1.1.7',
+38 silly addNameRange     '1.1.8-beta1',
+38 silly addNameRange     '1.1.8-beta2',
+38 silly addNameRange     '1.1.8-beta3',
+38 silly addNameRange     '1.1.8-beta4',
+38 silly addNameRange     '1.1.8-beta5',
+38 silly addNameRange     '1.1.8',
+38 silly addNameRange     '1.1.9-beta1',
+38 silly addNameRange     '1.1.9',
+38 silly addNameRange     '1.1.10',
+38 silly addNameRange     '1.1.11-beta1',
+38 silly addNameRange     '1.1.11-beta2',
+38 silly addNameRange     '1.1.11',
+38 silly addNameRange     '1.1.12-beta1',
+38 silly addNameRange     '1.1.12-beta2',
+38 silly addNameRange     '1.1.12-beta3',
+38 silly addNameRange     '1.1.12',
+38 silly addNameRange     '1.1.13',
+38 silly addNameRange     '1.1.14-beta1',
+38 silly addNameRange     '1.1.14-beta2',
+38 silly addNameRange     '1.1.14-beta3',
+38 silly addNameRange     '1.2.0-beta1',
+38 silly addNameRange     '1.2.0',
+38 silly addNameRange     '1.2.1-beta1',
+38 silly addNameRange     '1.2.1-beta2',
+38 silly addNameRange     '1.2.1-beta3',
+38 silly addNameRange     '1.2.1-beta4',
+38 silly addNameRange     '1.2.1',
+38 silly addNameRange     '1.2.2',
+38 silly addNameRange     '1.2.3-beta1',
+38 silly addNameRange     '1.2.3-beta2',
+38 silly addNameRange     '1.2.3-beta3',
+38 silly addNameRange     '1.2.3',
+38 silly addNameRange     '1.2.4-beta1',
+38 silly addNameRange     '1.2.4-beta2',
+38 silly addNameRange     '1.2.4-beta3',
+38 silly addNameRange     '1.2.4',
+38 silly addNameRange     '1.2.5-beta1',
+38 silly addNameRange     '1.2.5-beta2',
+38 silly addNameRange     '1.2.5-beta3',
+38 silly addNameRange     '1.2.5',
+38 silly addNameRange     '1.2.6-beta1',
+38 silly addNameRange     '1.2.6-beta2',
+38 silly addNameRange     '1.2.6-beta3',
+38 silly addNameRange     '1.2.6',
+38 silly addNameRange     '1.2.7',
+38 silly addNameRange     '1.2.8-beta1',
+38 silly addNameRange     '1.2.8-beta2',
+38 silly addNameRange     '1.2.8',
+38 silly addNameRange     '1.2.9',
+38 silly addNameRange     '1.2.10',
+38 silly addNameRange     '1.2.11',
+38 silly addNameRange     '1.2.12',
+38 silly addNameRange     '1.2.13',
+38 silly addNameRange     '1.2.14-beta1',
+38 silly addNameRange     '1.2.14-beta2',
+38 silly addNameRange     '1.2.14-beta3',
+38 silly addNameRange     '1.2.14-beta4',
+38 silly addNameRange     '1.2.14-beta5',
+38 silly addNameRange     '1.2.14-beta6',
+38 silly addNameRange     '1.2.14',
+38 silly addNameRange     '1.3.0-beta1',
+38 silly addNameRange     '1.3.0',
+38 silly addNameRange     '1.3.1',
+38 silly addNameRange     '1.3.2',
+38 silly addNameRange     '1.3.3',
+38 silly addNameRange     '1.3.4',
+38 silly addNameRange     '1.3.5',
+38 silly addNameRange     '1.3.6',
+38 silly addNameRange     '1.3.7',
+38 silly addNameRange     '1.3.8',
+38 silly addNameRange     '1.3.9',
+38 silly addNameRange     '1.3.10',
+38 silly addNameRange     '1.4.0-alpha.1',
+38 silly addNameRange     '1.3.11',
+38 silly addNameRange     '1.3.1-1.alpha.0',
+38 silly addNameRange     '1.4.0-alpha.2',
+38 silly addNameRange     '1.3.12',
+38 silly addNameRange     '1.3.12-beta.1',
+38 silly addNameRange     '1.3.12-beta.2',
+38 silly addNameRange     '1.3.13-beta.0',
+38 silly addNameRange     '1.3.1-3.beta.1',
+38 silly addNameRange     '1.3.1-3.beta.2',
+38 silly addNameRange     '1.3.13',
+38 silly addNameRange     '1.3.1-3.beta.4',
+38 silly addNameRange     '1.3.14-beta',
+38 silly addNameRange     '1.3.14-beta.1',
+38 silly addNameRange     '1.4.0-alpha.3',
+38 silly addNameRange     '1.3.14',
+38 silly addNameRange     '1.4.0-alpha.4',
+38 silly addNameRange     '1.4.0-alpha.5',
+38 silly addNameRange     '1.3.15-beta.0',
+38 silly addNameRange     '1.3.15-beta.1',
+38 silly addNameRange     '1.3.15-beta.2',
+38 silly addNameRange     '1.3.15-beta.3',
+38 silly addNameRange     '1.3.15-beta.4',
+38 silly addNameRange     '1.3.15',
+38 silly addNameRange     '1.3.16',
+38 silly addNameRange     '1.4.0-alpha.6',
+38 silly addNameRange     '1.3.17-beta.0',
+38 silly addNameRange     '1.3.17-beta.1',
+38 silly addNameRange     '1.3.17-beta.2',
+38 silly addNameRange     '1.3.17-beta.3',
+38 silly addNameRange     '1.3.1-7.beta.4',
+38 silly addNameRange     '1.3.17',
+38 silly addNameRange     '1.3.18-beta.0',
+38 silly addNameRange     '1.3.18-beta.1',
+38 silly addNameRange     '1.3.18-beta.2',
+38 silly addNameRange     '1.3.18-beta.3',
+38 silly addNameRange     '1.3.18',
+38 silly addNameRange     '1.3.19-beta.0',
+38 silly addNameRange     '1.3.19-beta.1',
+38 silly addNameRange     '1.3.19-beta.2',
+38 silly addNameRange     '1.3.19-beta.3',
+38 silly addNameRange     '1.3.19-beta.4',
+38 silly addNameRange     '1.3.19',
+38 silly addNameRange     '1.3.20',
+38 silly addNameRange     '1.4.1-beta.0',
+38 silly addNameRange     '1.4.0-beta.1',
+38 silly addNameRange     '1.4.0-beta.2',
+38 silly addNameRange     '1.4.0-beta.3',
+38 silly addNameRange     '1.4.0-beta.5',
+38 silly addNameRange     '1.4.0-beta.6',
+38 silly addNameRange     '1.4.0-beta.7',
+38 silly addNameRange     '1.3.21-beta.0',
+38 silly addNameRange     '1.3.21-beta.1',
+38 silly addNameRange     '1.3.21',
+38 silly addNameRange     '1.3.22',
+38 silly addNameRange     '1.4.0-beta.8',
+38 silly addNameRange     '1.4.0-beta.9',
+38 silly addNameRange     '1.4.0-beta.10',
+38 silly addNameRange     '1.4.0-beta.11',
+38 silly addNameRange     '1.4.0-beta.12',
+38 silly addNameRange     '1.4.0-beta.13',
+38 silly addNameRange     '1.4.0-beta.14',
+38 silly addNameRange     '1.4.0-beta.15',
+38 silly addNameRange     '1.4.0-beta.16',
+38 silly addNameRange     '1.4.0-beta.17',
+38 silly addNameRange     '1.4.0-beta.18',
+38 silly addNameRange     '1.4.0',
+38 silly addNameRange     '1.4.1',
+38 silly addNameRange     '1.4.2',
+38 silly addNameRange     '1.4.3',
+38 silly addNameRange     '1.4.4-beta.0',
+38 silly addNameRange     '1.4.4-beta.2',
+38 silly addNameRange     '1.4.4',
+38 silly addNameRange     '1.4.5-beta.0',
+38 silly addNameRange     '1.4.5-beta.1',
+38 silly addNameRange     '1.4.5-beta.2',
+38 silly addNameRange     '1.4.5-beta.3',
+38 silly addNameRange     '1.4.5',
+38 silly addNameRange     '1.4.6-beta.0',
+38 silly addNameRange     '1.4.6',
+38 silly addNameRange     '1.4.7',
+38 silly addNameRange     '1.4.8',
+38 silly addNameRange     '1.5.0-beta.0',
+38 silly addNameRange     '1.5.0-beta.1',
+38 silly addNameRange     '1.5.0',
+38 silly addNameRange     '1.5.1-beta.0',
+38 silly addNameRange     '1.5.1-beta.1',
+38 silly addNameRange     '1.5.1-beta.2',
+38 silly addNameRange     '1.5.1-beta.3',
+38 silly addNameRange     '1.5.1-beta.4',
+38 silly addNameRange     '1.5.1',
+38 silly addNameRange     '1.5.2',
+38 silly addNameRange     '1.5.3',
+38 silly addNameRange     '1.5.4',
+38 silly addNameRange     '1.5.5',
+38 silly addNameRange     '1.6.0-beta.1',
+38 silly addNameRange     '1.6.0',
+38 silly addNameRange     '1.6.1',
+38 silly addNameRange     '1.6.2-beta.0',
+38 silly addNameRange     '1.6.2-beta.1',
+38 silly addNameRange     '1.6.2-beta.2',
+38 silly addNameRange     '1.6.2',
+38 silly addNameRange     '1.6.3-beta.0',
+38 silly addNameRange     '1.6.3-beta.1',
+38 silly addNameRange     '1.6.3',
+38 silly addNameRange     '1.6.4-beta.0',
+38 silly addNameRange     '1.6.4-beta.1',
+38 silly addNameRange     '1.6.4',
+38 silly addNameRange     '1.7.0-beta.0',
+38 silly addNameRange     '1.7.0-beta.1',
+38 silly addNameRange     '1.7.0-beta.2',
+38 silly addNameRange     '1.7.0-beta.3',
+38 silly addNameRange     '2.0.0-alpha.1',
+38 silly addNameRange     '2.0.0-alpha.3',
+38 silly addNameRange     '1.7.0-beta.4',
+38 silly addNameRange     '1.6.5-testing.0',
+38 silly addNameRange     '1.6.5-testing.1',
+38 silly addNameRange     '1.6.5-testing.2',
+38 silly addNameRange     '1.6.5-testing.3',
+38 silly addNameRange     '1.6.5',
+38 silly addNameRange     '2.0.0-alpha.4',
+38 silly addNameRange     '1.7.0-beta.5',
+38 silly addNameRange     '1.7.0-beta.6',
+38 silly addNameRange     '1.7.0',
+38 silly addNameRange     '2.0.0-alpha.5',
+38 silly addNameRange     '2.0.0-alpha.6',
+38 silly addNameRange     '1.7.1',
+38 silly addNameRange     '2.0.0-alpha.7',
+38 silly addNameRange     '2.0.0-alpha.8',
+38 silly addNameRange     '1.7.2',
+38 silly addNameRange     '1.7.3',
+38 silly addNameRange     '1.7.4',
+38 silly addNameRange     '1.7.5',
+38 silly addNameRange     '1.7.6',
+38 silly addNameRange     '1.7.7-beta.0',
+38 silly addNameRange     '2.0.0-alpha.9',
+38 silly addNameRange     '1.7.7',
+38 silly addNameRange     '2.0.0-alpha.10',
+38 silly addNameRange     '2.0.0-alpha.11',
+38 silly addNameRange     '2.0.0-alpha.12',
+38 silly addNameRange     '2.0.0-alpha.13',
+38 silly addNameRange     '2.0.0-alpha.14',
+38 silly addNameRange     '2.0.0-alpha.15',
+38 silly addNameRange     '2.0.0-alpha.16',
+38 silly addNameRange     '2.0.0-alpha.17',
+38 silly addNameRange     '2.0.0-alpha.18',
+38 silly addNameRange     '1.7.8-beta.0',
+38 silly addNameRange     '1.7.8-beta.1',
+38 silly addNameRange     '1.7.8-beta.2',
+38 silly addNameRange     '1.7.8-beta.3',
+38 silly addNameRange     '1.7.8',
+38 silly addNameRange     '2.0.0-alpha.19',
+38 silly addNameRange     '2.0.0-alpha.20' ] ]
+39 verbose addNamed ionic@1.7.8
+40 silly addNamed semver.valid 1.7.8
+41 silly addNamed semver.validRange 1.7.8
+42 silly mapToRegistry name ionic
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/ionic
+46 verbose addRemoteTarball https://registry.npmjs.org/ionic/-/ionic-1.7.8.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.7.8.tgz',
+47 verbose addRemoteTarball   '9daa4be3da17c992f35ea17992efe7b353636d76' ]
+48 info retry fetch attempt 1 at 2:40:14 PM
+49 info attempt registry request try #1 at 2:40:14 PM
+50 http fetch GET https://registry.npmjs.org/ionic/-/ionic-1.7.8.tgz
+51 http fetch 200 https://registry.npmjs.org/ionic/-/ionic-1.7.8.tgz
+52 silly fetchAndShaCheck shasum 9daa4be3da17c992f35ea17992efe7b353636d76
+53 verbose addTmpTarball C:\Users\BSHRES~1\AppData\Local\Temp\npm-7248-e1f0364c\registry.npmjs.org\ionic\-\ionic-1.7.8.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for ionic@1.7.8
+55 silly cache afterAdd ionic@1.7.8
+56 verbose afterAdd C:\Users\bshrestha\AppData\Roaming\npm-cache\ionic\1.7.8\package\package.json not in flight; writing
+57 verbose afterAdd C:\Users\bshrestha\AppData\Roaming\npm-cache\ionic\1.7.8\package\package.json written
+58 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\-'
+58 verbose stack     at Error (native)
+59 verbose cwd C:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews
+60 error Windows_NT 6.3.9600
+61 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-" "ionic"
+62 error node v4.2.1
+63 error npm  v2.7.4
+64 error path C:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\-
+65 error code ENOENT
+66 error errno -4058
+67 error syscall open
+68 error enoent ENOENT: no such file or directory, open 'C:\Users\bshrestha\Documents\Visual Studio 2015\Projects\Afnainews\Afnainews\-'
+68 error enoent This is most likely not a problem with npm itself
+68 error enoent and is related to npm not being able to find a file.
+69 verbose exit [ -4058, true ]
